@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 1. 引入Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productDetails</title>
+    <link  rel="stylesheet" href="../../css/productDetails.css">
+    <script src="../../js/productDetails.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="p">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html" >Super Brand Day</a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="./shoppingCart.html">MyShoppingCart</a></li>
+              <li><a href="#">MyOrder</a></li>
+              <li class="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a href="#">Actio</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li><!--表现在同一行-->
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search" id="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+              </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UserServices <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ListOfProducts</a></li>
+                  <li><a href="#">AddProducts</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="all">
+          <div class="img left" >
+            <img src="../../image/手工缠花.jpg" alt="" style="width: 800px;">
+          </div>						
+          <div class="productDetails right">
+            <h2>Ancient handmade incense pendant</h2>
+            <div class="first">
+              <div class="details">
+                <span class="prices_1">SellingPrice</span>
+                <span class="prices_2">$188</span>
+                <span class="shic">marketPrice<span class="prices_3">￥238</span></span>
+                <span class="yis">Sold6264</span>
+              </div>
+              <div class="second">
+                <p></p>
+                <span class="color">Material:</span>
+                <span class="neir">Alloy / silver plated / gold plated</span>
+                <p></p>
+                <span class="color">Quality:</span>
+                <span class="neir">new</span>
+                <p></p>
+                <span class="color">Remark:</span>
+                <span class="neir">brand:ChunYixuan</span>
+              </div>
+              <div class="third">
+                <p></p>
+                <span class="color">ShippingInstructions</span>
+                <p>Europe/Americas/Asia/Oceania</p>
+                <span class="color">Delivered to</span>
+                <p>Parts of Africa</p>
+                <span class="color">Illustrate:</span>
+                <p>Delivery is not available in East Africa</p>
+              </div>
+              <div class="forth">
+                <span class="color">Choose:</span>
+                <p></p>
+                <span class="bang">Package1</span>
+                <span class="bang">Package2</span>
+                <span class="bang">Package3</span>
+              </div>
+              <div class="fifth">
+                <a href="#"><button class="color1">BuyNow</button></a>
+                <a href="./productDetails.html"><button class="color2">AddToCart</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <span class="label label-default">Default</span>
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" ><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+      </ul>
+      <div class="last">Copyright[dates]by[auther-qyr]</div>
+  
+<!-- 在body底部添加jQuery和Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

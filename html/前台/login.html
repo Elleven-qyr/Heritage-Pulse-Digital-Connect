@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 1. 引入Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link  rel="stylesheet" href="../../css/login.css">
+    <script src="../../js/login.js"></script>
+</head>
+<body>
+    <div class="re_div">
+        <div class="cLeft">
+            <p id="p1">用户登录</p>
+            <p id="p2">USER LOGIN</p>
+        </div>
+        <div class="cCenter">
+            <form id="myLogin">
+    <p id="p1"></p>
+    <table>
+    <tr>
+        <td class="td_left"><label for="userName">name:</label></td>
+        <td class="td_right"><input type="text" name="userName" id="userName" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="userPass">password</label></td>
+        <td class="td_right"><input type="text" name="userPass" id="userPass" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="tel">tel</label></td>
+        <td class="td_right"><input type="text" name="tel" id="tel" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="checkCode">checkcode</label></td>
+        <td class="td_right"><input type="text" name="checkCode" id="checkCode" placeholder="admin">
+            <img id="cheImg" src="../../image/验证码.png"></td>
+            
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><button type="button" onclick="checkusername()" id="btn_sub">login</button></td>
+    </tr>
+    <script src="../../js/login.js"></script>
+</table><tfoot>
+    <tr>
+    <input type="checkbox" name="" id="ch1">I have read and agree to <a href="#">detail1</a>and<a href="#">detail2</a>
+</tr></tfoot>
+</form></div>
+<div class="cRight">
+    <p id="p3">
+        Don't have account?<a href="../前台/creating.html">sign up!</a></p>
+        <div class="last">Copyright[dates]by[auther-qyr]</div>
+
+<!-- 在body底部添加jQuery和Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <!-- 1. 引入Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link  rel="stylesheet" href="../../css/creating.css">
+    <script src="../../js/creating.js"></script>
+</head>
+<body>
+    <div class="re_div">
+        <div class="cLeft">
+            <p id="p1">用户注册</p>
+            <p id="p2">USER REGISTER</p>
+        </div>
+        <div class="cCenter">
+            <form id="myLogin">
+    <p id="p1"></p>
+    <table>
+    <tr>
+        <td class="td_left"><label for="userName">username:</label></td>
+        <td class="td_right"><input type="text" name="userName" id="userName" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="userPass">password</label></td>
+        <td class="td_right"><input type="text" name="userPass" id="userPass" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="userPass">confirmPW</label></td>
+        <td class="td_right"><input type="text" name="conPw" id="conPw" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="tel">tel</label></td>
+        <td class="td_right"><input type="text" name="tel" id="tel" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label for="email">Email</label></td>
+        <td class="td_right"><input type="email" name="email" id="email" placeholder="请输入邮箱"></td>
+    </tr>
+
+    <tr>
+        <td class="td_left"><label for="name">name</label></td>
+        <td class="td_right"><input type="text" name="name" id="name" placeholder="admin"></td>
+    </tr>
+    <tr>
+        <td class="td_left"><label>gender</label></td>
+        <td class="td_right">
+            <input type="radio" name="gender" id="gender" value="male"> male
+            <input type="radio" name="gender" id="gender" value="female"> female
+        </td>
+    </tr>
+
+    <tr>
+        <td class="td_left"><label for="birthday">birthday</label></td>
+        <td class="td_right"><input type="date" name="birthday" id="birthday" placeholder="admin"></td>
+    </tr>
+
+    <tr>
+    <tr>
+        <td class="td_left"><label for="checkCode">checkcode</label></td>
+        <td class="td_right"><input type="text" name="checkCode" id="checkCode" placeholder="admin">
+            <img id="cheImg" src="../../image/验证码2.png"></td>
+            
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><button type="button" onclick="checkusername()" id="btn_sub">login</button></td>
+    </tr>
+    <script src="../../js/creating.js"></script> 
+        </table>
+        <tfoot>
+            <tr>
+            <input type="checkbox" name="" id="ch1">I have read and agree to <a href="#">detail1</a>and<a href="#">detail2</a>
+        </tr></tfoot>
+    </div>
+    <div class="cRight">
+        <p id="p3">Has an account?<a href="../前台/login.html">To log in</a></p>
+    </div>
+</div>
+    <div class="last">Copyright[dates]by[auther-qyr]</div>
+
+    <!-- 在body底部添加jQuery和Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

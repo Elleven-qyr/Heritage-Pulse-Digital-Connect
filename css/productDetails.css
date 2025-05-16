@@ -1,0 +1,98 @@
+.all{
+	width: 100%;
+	height: 810px;
+	padding-bottom: 50px;
+	margin-top: -80px;
+	margin-bottom: 1px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+.first .prices_1{
+	color: #758188;
+}
+.first .details{
+	background-color: #F2F5F8;
+	color: #758188;
+}
+.first .details .prices_2,.shic{
+	margin-left: 40px;
+}
+.first .details .prices_2{
+	color: #FF4F0D;
+	font-size: 35px;
+	font-weight: bold;
+}
+.first .details .prices_3{
+	text-decoration: line-through;
+}
+.first .details .yis{
+	margin-left: 230px;
+}
+.second{
+	background-color: #F6F9FB;
+}
+.second span,p{
+	margin-top: 10px;
+}
+.second .neir{
+	margin-left: 50px;
+}
+.third{
+	margin-top: 10px;
+}
+.forth{
+	margin-top: 10px;
+}
+.forth .bang{
+	display: inline-block;
+	border: 3px #EDF0F5 solid;
+	width: 50px;
+	line-height: 40px;
+	margin-left: 30px;
+	text-align: center;
+}
+.forth .bang:hover{
+	border: 3px #FF4F0D solid;
+}
+.fifth{
+	margin-top: 30px;
+}
+.fifth button{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	border-radius: 30px;
+	margin-left: 30px;
+}
+.fifth .color1{
+	background-color: #FFEEE8;
+	color: #FF4F0D;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 1px #FF4F0D solid;
+   
+}
+.fifth .color2{
+	background-color: #FF4F0D;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 1px #FF4F0D solid;
+    
+}
+img{
+	padding-left: 200px;
+}
+.productDetails{
+	padding-right: 50px;
+}
+.last{
+    text-align: center;
+    font-size: x-small;
+}

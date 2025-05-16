@@ -1,0 +1,84 @@
+nav#p{
+    position:fixed;
+    right: 0;
+    width:100%;
+    z-index: 999;
+    
+    
+}
+.header {
+    font-size: 38px;
+    font-weight: bold;
+    
+    line-height: 200px;
+    padding-left: 200px;
+}
+.input-item {
+    display: block;
+    margin-bottom: 30px;
+    border: 0;
+    padding: 5px;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    font-size: 15px;
+    outline: none;
+    width: 500px;
+}
+
+.logbtn {
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+    color: #fff;
+}
+.msg {
+    float: left;
+    }
+.log{
+    padding-left: 150px;
+}
+.log2{
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+a.navbar-brand {
+    font-size: 30px;
+    font-weight: '楷体';
+    font-weight: 550;
+}
+img#first{
+    padding-left: 50px;
+}
+img#second {
+    margin-top: 0;
+}
+div#text1{
+    display: inline-block;
+    font-weight: 550;
+    padding-right: 350px;
+}
+div.jumbotron div#title{
+     display: inline-block;
+     padding-left: 100px;
+   
+}
+div#S p#text2{
+    display: inline-block;
+    font-weight: 550;
+}
+div img#third{
+    display: inline-block;
+}
+div#title2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(1, 1, 92);
+}
+button#login{
+    font-size: 20px;
+}
+.last{
+    text-align: center;
+    font-size: x-small;
+}
